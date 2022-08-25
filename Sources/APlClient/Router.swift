@@ -10,18 +10,18 @@ import Foundation
 import Alamofire
 
 public enum Result {
-  public case success
-  public case authenticationError
-  public case refreshToken
-  public case failure
-  public case lockedLogin
-  public case reCall
+   case success
+   case authenticationError
+   case refreshToken
+   case failure
+   case lockedLogin
+   case reCall
 }
 
 public enum ParameterType {
-  public case uri
-  public case query
-  public case body
+   case uri
+   case query
+   case body
 }
 
 public class Router<T: Decodable> {
