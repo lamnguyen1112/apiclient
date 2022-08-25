@@ -26,6 +26,6 @@ let package = Package(
             dependencies: ["Alamofire"]),
         .testTarget(
             name: "APlClientTests",
-            dependencies: ["APlClient", "Alamofire"]),
+            dependencies: ["APlClient"]),
     ]
 )
