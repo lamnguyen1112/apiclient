@@ -9,7 +9,7 @@
 import Foundation
 
 public struct BaseModel<T: Decodable>: Decodable {
-    var code: Int?
-    var msg: String?
-    var data: T?
+    public var code: Int?
+    public var msg: String?
+    public var data: T?
 }
