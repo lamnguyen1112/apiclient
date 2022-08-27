@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 
 public class Connectivity {
-  public class var isConnectedToInternet: Bool {
-    return NetworkReachabilityManager()?.isReachable ?? false
-  }
+    public class var isConnectedToInternet: Bool {
+        return NetworkReachabilityManager()?.isReachable ?? false
+    }
 }

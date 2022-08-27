@@ -8,8 +8,8 @@
 import Foundation
 
 public struct ErrorMessage {
-  public static let TITLE_ERROR = "Error"
-  public static let TITLE_CONNECTION_ERR = "Error"
-  public static let MSG_CONNECTION_ERR = "Don't have internet"
-  public static let MSG_SERVER_ERR = "Server Error"
+    static let TITLE_ERROR = "Error"
+    static let TITLE_CONNECTION_ERR = "Error"
+    static let MSG_CONNECTION_ERR = "Don't have internet"
+    static let MSG_SERVER_ERR = "Server Error"
 }

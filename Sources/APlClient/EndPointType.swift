@@ -13,10 +13,10 @@ import Alamofire
 public typealias HTTPParameter = [String: Any]
 
 public protocol EndPointType {
-  public var baseURL: URL { get }
-  public var path: String { get }
-  public var httpMethod: HTTPMethod { get }
-  public var headers: HTTPHeaders? { get }
-  public var params: HTTPParameter? { get }
-  public var paramType: ParameterType? { get }
+    var baseURL: URL { get }
+    var path: String { get }
+    var httpMethod: HTTPMethod { get }
+    var headers: HTTPHeaders? { get }
+    var params: HTTPParameter? { get }
+    var paramType: ParameterType? { get }
 }
